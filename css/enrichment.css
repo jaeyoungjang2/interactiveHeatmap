@@ -1,0 +1,18 @@
+.enrichment-title{
+    margin-bottom: 10px;
+    margin-top: 40px;
+    border-bottom: 1px solid black
+}
+
+.enrichment-table{
+    width: 33vh;
+    height:15vh;
+    overflow:auto;
+    border=none;
+    margin: 0px;
+    font-size: 12px;
+    padding: 0px;
+    display: flex;
+    flex-direction: space-between;
+}
+
