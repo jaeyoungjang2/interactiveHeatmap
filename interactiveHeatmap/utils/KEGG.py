@@ -14,7 +14,7 @@ class KEGG:
 
 	def isValidKeggTerm(self, line):
 		self.li = line.strip().split('\t')
-		# 특정 조합의 GO term을 하나씩 확인
+		# 특정 조합의 GO term을 하나씩 확인!!
 		# termname 마다 조합에 해당하는 샘플에 관한 expression 파일을 생성
 		# term에 있어서는 안되는 문자열 변경
 		self.mapName = self.li[self.mapNameIndex].replace("/","_").replace(" ","_").replace("-","_").replace("(","_").replace(")","_").replace(",","_").replace(".","_")
