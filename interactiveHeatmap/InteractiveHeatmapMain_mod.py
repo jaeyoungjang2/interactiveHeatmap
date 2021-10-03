@@ -42,7 +42,7 @@ def run():
 
 		os.system(f'mkdir -p {resultDir}/json/{DegGroupDic[data3File]}')
 		os.system(f'mkdir -p {resultDir+"html/"}')
-		# 특정 조합의 data3 file을 기반으로한 json 파일 만드는 작업
+		# 특정 조합의 data3 file을 기반으로한 json 파일 만드는 작업.
 		inputFormatChanger.addZscore(data3File, degOutputDir, outputDir)
 		inputFormatChanger.convertTxt2CsvFileUsingTargetColumn(data3File, outputDir)
 		analysis.runIncHlib(data3File, outputDir)
